@@ -158,6 +158,14 @@ https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.h
 
 
 
+# Successfully Deployed Our Web Application
+
+ - I have used LoadBalancer in my Service yml manifest to access the application outside the cluster
+
+
+
+<img width="1440" alt="Screenshot 2023-06-07 at 12 07 01 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/ce4a8d9b-6824-4d4b-822d-26adb673f87b">
+
 
 
 
