@@ -120,8 +120,15 @@ https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.h
   kubectl apply -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.4.7/manifests/install.yaml -n argocd
   ```
 
-
-
+#### Step 2 : Configuring ArgoCD
+  
+  - Here I have Edited the ArgoCD Server Manifest file from ClusterIP to LoadBalancer to access the ArgoCD UI in Browser.
+  
+  ```sh
+  kubectl edit svc argocd-server -n argocd
+  ```
+  
+<img width="1440" alt="Screenshot 2023-06-07 at 12 00 01 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/7770e78f-fcd4-4d7c-be55-edba97183bdb">
 
 
 
