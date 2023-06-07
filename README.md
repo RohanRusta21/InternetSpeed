@@ -231,8 +231,12 @@ UserName: admin
 Password: prom-operator
 ```
 
+<img width="1440" alt="Screenshot 2023-06-07 at 12 15 32 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/40efcfec-157c-42a1-8f9e-349c038ddbc9">
 
 
+- Prometheus UI also used LoadBalancer to access in Browser
+
+<img width="1440" alt="Screenshot 2023-06-07 at 12 17 24 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/b7967d9b-56d4-4361-8fec-755c549ea026">
 
 
 
