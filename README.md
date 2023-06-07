@@ -16,7 +16,7 @@
   
 
 #### Stage 1 in Github Action Workflow : Build & Push
-  - In this Stage, I am Checking Out the Code Installing Trivy and Setting Up NodeJs Environment
+  - In this Stage, I am Checking Out the Code Installing Trivy and Setting Up NodeJs Environment.
   - Trivy is a free and open source tool to check vulnerabilities and scan containers as well as Images build using Docker.
   - Using Docker , I dockerised the Frontend & Backend of the application using Dockerfiles for the respective .
   - After Dockerizing the Frontend & backend , Images Are scanned by trivy and pushed to DockerHub Registery. 
@@ -25,6 +25,17 @@
 <img width="1440" alt="Screenshot 2023-06-07 at 12 46 42 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/269a8f56-5e39-45a7-8f8f-01f8cd59dc77">
 
 
-
-
 <img width="1440" alt="Screenshot 2023-06-07 at 12 47 15 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/6458e51a-aca7-462a-9d39-7aa59b48e701">
+
+
+#### Stage 2 in Github Action Workflow : Test Frontend & Backend
+  - In this Stage, I am Testing the Build Dependencies Installed in Frontend & Backend.
+  - I have Setup the Required Node Verison to install Dependencies and Test.
+
+<img width="1440" alt="Screenshot 2023-06-07 at 12 47 35 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/145a420c-8356-45e4-97ab-1c09b3cf8a1d">
+
+
+<img width="1440" alt="Screenshot 2023-06-07 at 12 47 56 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/cdeacae9-edcc-42e5-96e4-20da11eaf05d">
+
+
+  
