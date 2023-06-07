@@ -192,6 +192,12 @@ kubectl get pods -n prometheus
 kubectl get svc -n prometheus
 ```
 
+<img width="1440" alt="Screenshot 2023-06-07 at 12 11 12 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/310078d6-6325-4d16-9e79-f25b1ca6da90">
+
+
+
+
+
 Edit Prometheus Service (Edit type : LoadBalancer)
 ```sh
 kubectl edit svc stable-kube-prometheus-sta-prometheus -n prometheus
@@ -206,6 +212,18 @@ Verify if service is changed to LoadBalancer and also to get the Load Balancer U
 ```sh
 kubectl get svc -n prometheus
 ```
+
+
+
+<img width="1440" alt="Screenshot 2023-06-07 at 12 11 40 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/17cb107e-2974-493d-bbf4-4f759b4a0682">
+
+
+
+
+<img width="1440" alt="Screenshot 2023-06-07 at 12 13 00 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/47be03ab-8568-41e8-bf85-b25bb4e7f17e">
+
+
+
 
 Access Grafana Dashboard
 ```sh
