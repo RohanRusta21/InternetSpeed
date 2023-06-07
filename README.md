@@ -107,6 +107,10 @@ https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.h
     ```
 
 
+# Installing ArgoCD in EKS cluster to make Continous Deployment 
+
+   - In this Stage, I am updating the YML Manifests with the updated Image build during dockerizing.
+
 
 
 
