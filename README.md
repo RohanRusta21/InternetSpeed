@@ -116,8 +116,8 @@ https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.h
 #### Step 1 : We Create a namespace and Install Manifest for ArgoCD
   
   ```sh
-  - kubectl create ns argocd
-  - kubectl apply -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.4.7/manifests/install.yaml -n argocd
+  kubectl create ns argocd
+  kubectl apply -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.4.7/manifests/install.yaml -n argocd
   ```
 
 
