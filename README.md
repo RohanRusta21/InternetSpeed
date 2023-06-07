@@ -119,6 +119,13 @@ https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.h
   kubectl create ns argocd
   kubectl apply -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.4.7/manifests/install.yaml -n argocd
   ```
+  
+  
+  <img width="1160" alt="Screenshot 2023-06-07 at 12 05 16 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/7279ef80-c32e-4d63-8b5f-33297dfc3eb0">
+
+  
+  
+  
 
 #### Step 2 : Configuring ArgoCD
   
