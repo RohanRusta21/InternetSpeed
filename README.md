@@ -132,6 +132,16 @@ https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.h
 
 
 
+- Setting Up the manifest repository in ArgoCD.
+
+
+<img width="1440" alt="Screenshot 2023-06-07 at 12 01 02 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/4f320be1-8d28-4214-ac55-f56b215ba290">
+
+
+
+
+
+
 
 
 
