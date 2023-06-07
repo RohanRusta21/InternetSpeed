@@ -135,6 +135,11 @@ https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.h
   kubectl edit svc argocd-server -n argocd
   ```
   
+  ![Screenshot 2023-06-07 at 12 06 04 AM](https://github.com/RohanRusta21/InternetSpeed/assets/110477025/5ac500e6-fc85-4e7e-8598-a80b74ead75a)
+
+  
+  
+  
 <img width="1440" alt="Screenshot 2023-06-07 at 12 00 01 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/7770e78f-fcd4-4d7c-be55-edba97183bdb">
 
 
@@ -143,6 +148,14 @@ https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.h
 
 
 <img width="1440" alt="Screenshot 2023-06-07 at 12 01 02 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/4f320be1-8d28-4214-ac55-f56b215ba290">
+
+
+
+
+
+<img width="1440" alt="Screenshot 2023-06-07 at 12 03 13 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/cdd3f802-1964-4783-8587-a3f4a6a89879">
+
+
 
 
 
