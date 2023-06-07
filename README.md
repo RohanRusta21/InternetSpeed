@@ -9,9 +9,12 @@
 
 #### CICD Flow used for the Project :
   - Source Code is pushed to Github Repository.
-  - For Automating CI , I have used Github Action Workflow which works similar to Jenkins, GitLab CI,etc.
+  - For Automating Continous Integration , I have used Github Action Workflow which works similar to Jenkins, GitLab CI,etc.
   - I have created ci.yml file which has all the Stages and Step.
   - The Stages Constitute stages like : Build, Test & Deploy.
   - For Continous Deployment , I have used ArgoCD which is a GitOps Controller and Open Source Tool.
   
 
+#### Stage 1 in Github Action Workflow : Build & Publish
+
+<img width="1440" alt="Screenshot 2023-06-07 at 12 47 15 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/6458e51a-aca7-462a-9d39-7aa59b48e701">
