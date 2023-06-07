@@ -248,7 +248,7 @@ Password: prom-operator
 
 #### Creating Customised Monitoring Dashboard using Prometheus & Grafana
 
-  - Prometheus is used to gather the dynamic realtime timeseries metrics of nodes from kubelet and we used it to give data to grafana so that we can used it to visualiztion
+  - Prometheus is used to gather the dynamic realtime timeseries metrics of nodes from kubelet and we used it to give data to grafana so that we can used it to visualize
   - In Grafana I have used Prometheus as a data source and grafana retrieves data from prometheus using queries.
 
 
@@ -256,7 +256,15 @@ Password: prom-operator
 
 
 
-#### Our Dynamic Customised Monitoring Dashboard for our cluster
+# Our Dynamic Customised Monitoring Dashboard for our cluster
 
+
+  - I have used Memory & CPU metrics for the pods and nodes.
+  - For checking the realtime scaling and replicas of the deployment we can use other queries to retrieve data.
+  - Frontend & Backend Containers can also be monitored in the dashboard.
+
+
+
+<img width="1440" alt="Screenshot 2023-06-07 at 12 43 36 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/3b79b96f-704f-4278-b164-d726692ddfac">
 
   
