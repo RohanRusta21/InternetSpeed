@@ -168,6 +168,53 @@ https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.h
 
 
 
+## Cluster Monitoring using Prometheus & Grafana
+
+Key Components :
+
+- Prometheus server - Processes and stores metrics data
+- Alert Manager - Sends alerts to any systems/channels
+- Grafana - Visualize scraped data in UI
+
+Pre Requisites :
+- EKS Cluster is setup already
+- Install Helm
+- EC2 instance to access EKS cluster
+
+Installation Steps 
+```sh
+helm repo add stable https://charts.helm.sh/stable
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+helm search repo prometheus-community
+kubectl create namespace prometheus
+helm install stable prometheus-community/kube-prometheus-stack -n prometheus
+kubectl get pods -n prometheus
+kubectl get svc -n prometheus
+```
+
+Edit Prometheus Service (Edit type : LoadBalancer)
+```sh
+kubectl edit svc stable-kube-prometheus-sta-prometheus -n prometheus
+```
+
+Edit Grafana Service (Edit type : LoadBalancer) 
+```sh
+kubectl edit svc stable-grafana -n prometheus
+```
+
+Verify if service is changed to LoadBalancer and also to get the Load Balancer URL.
+```sh
+kubectl get svc -n prometheus
+```
+
+Access Grafana Dashboard
+```sh
+UserName: admin 
+Password: prom-operator
+```
+
+
+
 
 
 
