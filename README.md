@@ -15,11 +15,6 @@
   - For Continous Deployment , I have used ArgoCD which is a GitOps Controller and Open Source Tool.
 
 
-<img width="1440" alt="Screenshot 2023-06-07 at 12 45 59 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/b50daa2d-15ec-4fa9-b7a6-8d76cf01ec2f">
-
-
-  
-
 #### Stage 1 in Github Action Workflow : Build & Push
   - In this Stage, I am Checking Out the Code Installing Trivy and Setting Up NodeJs Environment.
   - Trivy is a free and open source tool to check vulnerabilities and scan containers as well as Images build using Docker.
@@ -41,6 +36,33 @@
 
 
 <img width="1440" alt="Screenshot 2023-06-07 at 12 47 56 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/cdeacae9-edcc-42e5-96e4-20da11eaf05d">
+
+
+#### Stage 3 in Github Action Workflow : Update Manifest & Deploy Application
+  - In this Stage, I am updating the YML Manifests with the updated Image build during dockerizing.
+  - After completing the above 2 stages we are updating the Image version on a different repository specifically maintained to store        manifest files used for Kubernetes Cluster.
+  - After Updating the Deployment.yml for both frontend and backend, I pushed the code with the new commit.
+
+
+
+<img width="1440" alt="Screenshot 2023-06-07 at 12 48 21 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/a72e3f88-fe78-4ddf-9026-9772d970937f">
+
+
+
+<img width="1440" alt="Screenshot 2023-06-07 at 12 45 59 AM" src="https://github.com/RohanRusta21/InternetSpeed/assets/110477025/3600bacf-e7b4-4694-b7ec-6948ad99464c">
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   
